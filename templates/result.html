@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Voting Results</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Voting Results</h2>
+
+<p>Candidate A : {{a_votes}}</p>
+<p>Candidate B : {{b_votes}}</p>
+<p>Candidate C : {{c_votes}}</p>
+
+<br>
+
+<a href="/">Back to Voting</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
